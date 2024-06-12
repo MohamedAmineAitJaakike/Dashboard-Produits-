@@ -1,6 +1,6 @@
-# Dashboard Produits
+# Dashboard Produits (En cours de création)
 
-Ce projet est un tableau de bord simple conçu pour suivre et visualiser des données relatives aux produits. Il est développé en utilisant HTML et CSS, offrant une interface conviviale et intuitive pour la gestion des produits.
+Ce projet est un tableau de bord simple conçu pour suivre et visualiser des données relatives aux produits. Pour le moment, seule une partie du front-end a été réalisée. Il est développé en utilisant HTML et CSS, offrant une interface conviviale et intuitive pour la gestion des produits.
 
 ## Fonctionnalités principales :
 
@@ -19,6 +19,13 @@ Ce projet est un tableau de bord simple conçu pour suivre et visualiser des don
 1. Clonez ce repository sur votre machine locale.
 2. Ouvrez le fichier `index.html` dans votre navigateur web préféré.
 3. Commencez à explorer les différentes fonctionnalités du tableau de bord.
+
+## À venir :
+
+Dans les prochaines versions, les fonctionnalités suivantes seront ajoutées :
+- Traitement côté client avec JavaScript.
+- Intégration de fonctionnalités côté serveur avec PHP.
+- Utilisation d'une base de données pour stocker les informations sur les produits.
 
 ## Contribuer :
 
