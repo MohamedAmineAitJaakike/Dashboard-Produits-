@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    display: flex;
+}
+.Menu{
+    width: 90px ;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #123;
+    flex-shrink: 0;
+    padding: 5px;
+    transition: .5s; 
+    border-radius: 5px; 
+}
+ul li a,i {
+  
+    display: block;
+    margin:  8px;
+    padding: 5px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size:14px;
+    transition: .5s;
+    text-decoration: none;
+    
+
+}
+.Home{
+    margin-top: 30px;
+}
+ul li a:hover,.Home,.Box:hover,td:hover{
+    background-color: #857e7e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Profile{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 10px;
+    text-transform:uppercase;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+.Profile h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 1px;
+}
+ul{
+    position: relative;
+    height: 95%;
+    list-style: none;
+}
+.Box_img{
+    width: 80px;
+    height: 80px; 
+    padding: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+img{
+    width: 100%;
+    margin-block-end: 0px;
+    border-radius: 50%;
+    border: 3px solid white;
+  
+}
+.Log_out{
+    position: absolute;
+    bottom: 0%;
+    margin-right: 10px;
+    width: 93%;
+    background-color: red;
+}
+.Menu:hover{
+    width: 300px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-shadow: 0 0 10px black;
+
+}
+.Title_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    margin: 5px;
+    background-color: rgb(77, 77, 231);
+    border-radius: 10px;
+    font-size:13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+}
+.content{
+    width: 100%;
+}
+.Box_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    gap: 10px;
+    margin: 5px;
+
+
+}
+
+
+.Box{
+    height: 100px;
+    flex-basis: 100px;
+    border-radius: 15px; 
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #123;
+    transition-duration: .5s;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 0 0 2px 0  white;
+}
+.Box i {
+    font-size:40px;
+}
+.Box .Data{
+    margin: 40px;
+    text-align: center;
+   
+    
+}
+.Box .Data p{
+    margin: 10px;
+    font-size: 20px;
+}
+.Box .Data span{
+    font-size: 50px;
+}
+table{
+    width: 100%;
+   
+    text-align: center;
+    border-spacing: 8px;
+    
+
+}
+td,th{
+    background-color: #123;
+    height:30px;
+    border-radius: 15px;
+    margin: 10px;
+    font-weight: 700;
+    box-shadow: 0 0 2px 0  white;
+    
+
+}
+th{
+    background-color: rgb(49, 36, 221);
+}
+.Price,.Count{
+    border-radius: 5px;
+    padding:  3px;
+}
+.Price{
+    background-color: green;
+    font-weight: bold;
+}
+.Count{
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+   
+}
+.search-input{
+    font-size: 15px;
+    border-radius: 8px;
+    text-align: center;
+    border-style: none;
+}
+.search-input:hover{
+    border: 2px solid black ;
+    background-color: #857e7e4d;
+    color:black;
+    transition: 0.2s;
+
+}
+.search-icon {
+    
+    color: #555;
+}
+.fas:hover{
+    cursor: pointer;
+    background-color: rgb(132, 130, 170);
+    padding:3.5px 10px 3.5px 10px;
+    transform: scale(1.07);
+
+
+}
+.table{
+    height: 100vh;
+}
